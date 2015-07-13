@@ -222,8 +222,8 @@ or
 
 ## Libstatus
 
-A library which prints some stats and exits can be found in `libstatus/`.  It
-can be build with:
+A library which prints some stats and then `_exit(2)`'s can be found in
+`libstatus/`.  It can be build with:
 
 ```
   $ make libstatus
