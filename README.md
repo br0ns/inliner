@@ -10,6 +10,9 @@ produced for a given configuration.  Build with
   make CONFIG=myconfig.inl
 ```
 
+This will produce a file called `inliner`.  This is your bespoke wrapper copy it
+somewhere (e.g. `myservice-inliner`) and run it as you service.
+
 ## Configuration
 
 A configuration file contains a collection of options, filters and environment
