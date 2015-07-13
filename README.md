@@ -201,7 +201,7 @@ of `<regex>` may be referred to.
 Send `<data>` to the world.  No filters will see `<data>`.  Subgroups of
 `<regex>` may be referred to.
 
-#### `guard <str> [not] in <file>`
+#### `guard <str>` [`not`] `in <file>`
 
 Assert that `<str>` (which may refer to subgroups of `<regex>`) is or is not
 present somewhere in `<file>`.  E.g:
